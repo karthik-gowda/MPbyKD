@@ -200,22 +200,24 @@
             <h2>Get in Touch</h2>
             <p>Any queries get in touch with us</p>
         </div>
-        <div class="contactform">
-            <div class="row">
-                <input type="text" name="" placeholder="First Name">
-                <input type="text" name="" placeholder="Last Name">
+        <form action="POST" data-netlify="true">
+            <div class="contactform">
+                <div class="row">
+                    <input type="text" name="Fname" placeholder="First Name">
+                    <input type="text" name="Lname" placeholder="Last Name">
+                </div>
+                <div class="row">
+                    <input type="text" name="Email" placeholder="Email Address">
+                    <input type="text" name="Mobile" placeholder="Mobile: No.">
+                </div>
+                <div class="row2">
+                    <textarea name="Message" placeholder="Message"></textarea>
+                </div>
+                <div class="row2">
+                    <input type="submit" value="Send" class="button">
+                </div>
             </div>
-            <div class="row">
-                <input type="text" name="" placeholder="Email Address">
-                <input type="text" name="" placeholder="Mobile: No.">
-            </div>
-            <div class="row2">
-                <textarea placeholder="Message"></textarea>
-            </div>
-            <div class="row2">
-                <input type="submit" value="Send" class="button">
-            </div>
-        </div>
+        </form>
     </section>
 
     <!--Footer Information-->
