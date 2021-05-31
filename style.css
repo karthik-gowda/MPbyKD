@@ -299,7 +299,9 @@ p {
 .chk {
     margin-top: 40px;
 }
-
+form{
+    width:700px;
+}
 .contact {
     display: flex;
     justify-content: center;
