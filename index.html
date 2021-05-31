@@ -200,7 +200,7 @@
             <h2>Get in Touch</h2>
             <p>Any queries get in touch with us</p>
         </div>
-        <form action="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form action="POST" data-netlify="true">
             <div class="contactform">
                 <div class="row">
                     <input type="text" name="Fname" placeholder="First Name">
@@ -215,6 +215,8 @@
                 </div>
                 <div class="row2">
                     <input type="submit" value="Send" class="button">
+                </div>
+                <div data-netlify-recaptcha="true">
                 </div>
             </div>
         </form>
