@@ -512,6 +512,8 @@ span {
         text-align: center;
         margin: 20px 30px;
     }
+    form{
+        width:350px;
 }
 
 @media (max-width:338px) {
