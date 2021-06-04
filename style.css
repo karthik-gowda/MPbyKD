@@ -527,7 +527,7 @@ span {
 }
     
     #preloader{
-        width:700px;
+        width:50%;
     }
 
 @media (max-width:338px) {
