@@ -525,6 +525,10 @@ span {
     form{
         width:350px;
 }
+    
+    #preloader{
+        width:700px;
+    }
 
 @media (max-width:338px) {
     .s-m {
