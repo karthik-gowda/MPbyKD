@@ -450,15 +450,6 @@ span {
     font-size: 50px;
 }
 
-#preloader{
-    background:#000 url(loader.gif) no-repeat center center;
-    background-size:20%;
-    height:100vh;
-    width:100%;
-    position:fixed;
-    z-index:100;
-    
-
 
 @media (max-width:990px) {
     header {
@@ -525,10 +516,6 @@ span {
     form{
         width:350px;
 }
-    
-    #preloader{
-        width:50%;
-    }
 
 @media (max-width:338px) {
     .s-m {
