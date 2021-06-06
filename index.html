@@ -20,7 +20,7 @@
 
 
 <body>
-    
+    <div id="preloader"></div>
     <header>
         <a href="index.html" class="logo">MPbyKD</a>
         <div class="menuToggle"></div>
@@ -294,6 +294,12 @@
         
        
         
+    </script>
+         <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
     </script>
 </body>
 
