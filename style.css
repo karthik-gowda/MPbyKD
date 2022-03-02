@@ -1,13 +1,12 @@
 * {
     padding: 0;
-    ;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     scroll-behavior: smooth;
 }
 
- :root {
+:root {
     --black: #333;
     --white: #fff;
 }
@@ -52,14 +51,14 @@ header.sticky {
     position: relative;
     width: 30px;
     height: 30px;
-    background: url(menu.png);
+    background: url(./images/menu.png);
     background-size: 30px;
     background-repeat: no-repeat;
     cursor: pointer;
 }
 
 .menuToggle.active {
-    background: url(close.png);
+    background: url(./images/close.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +121,7 @@ section {
 .banner {
     display: flex;
     justify-content: center;
-    align-items: flex-end
+    align-items: flex-end;
 }
 
 .content {
@@ -207,7 +206,7 @@ section {
 }
 
 .title h2:before {
-    content: '';
+    content: "";
     position: absolute;
     border-radius: 10px;
     bottom: -10px;
@@ -306,8 +305,8 @@ p {
 .chk {
     margin-top: 40px;
 }
-form{
-    width:700px;
+form {
+    width: 700px;
 }
 .contact {
     display: flex;
@@ -358,7 +357,7 @@ form{
     resize: none;
 }
 
- ::placeholder {
+::placeholder {
     color: var(--black);
 }
 
@@ -457,8 +456,7 @@ span {
     font-size: 50px;
 }
 
-
-@media (max-width:990px) {
+@media (max-width: 990px) {
     #preloader {
         background-size: 50%;
     }
@@ -523,11 +521,12 @@ span {
         text-align: center;
         margin: 20px 30px;
     }
-    form{
-        width:350px;
+    form {
+        width: 350px;
+    }
 }
 
-@media (max-width:338px) {
+@media (max-width: 338px) {
     .s-m {
         display: flex;
         justify-content: center;

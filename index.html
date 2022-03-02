@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Chamge</title>
+    <title>MPbyKD</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@
     <!--Home banner-->
 
     <section class="banner" id="unspl">
-        <img src="banner3.jpg" class="cover">
+        <img src="./images/banner3.jpg" class="cover">
         <div class="content">
             <h2>Welcome to Mobile Photography</h2>
             <h4>Powered by Karthik Gowda</h4>
@@ -70,7 +70,7 @@
 
             <div class="contentbx">
                 <div class="imgbx">
-                    <img src="about.jpg" class="cover">
+                    <img src="./images/about.jpg" class="cover">
                 </div>
             </div>
         </div>
@@ -90,7 +90,7 @@
             <div class="postColumn">
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG1.jpg" class="cover">
+                        <img src="./images/IMG1.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -101,7 +101,7 @@
 
                 <div class="postBox extraHeight">
                     <div class="imgbx">
-                        <img src="IMG2.jpg" class="cover">
+                        <img src="./images/IMG2.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -111,7 +111,7 @@
 
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG3.jpg" class="cover">
+                        <img src="./images/IMG3.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -124,7 +124,7 @@
             <div class="postColumn">
                 <div class="postBox extraHeight">
                     <div class="imgbx">
-                        <img src="IMG4.jpg" class="cover">
+                        <img src="./images/IMG4.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -135,7 +135,7 @@
 
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG5.jpg" class="cover">
+                        <img src="./images/IMG5.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -145,7 +145,7 @@
 
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG6.jpg" class="cover">
+                        <img src="./images/IMG6.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -157,7 +157,7 @@
             <div class="postColumn">
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG7.jpg" class="cover">
+                        <img src="./images/IMG7.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -168,7 +168,7 @@
 
                 <div class="postBox">
                     <div class="imgbx">
-                        <img src="IMG8.jpg" class="cover">
+                        <img src="./images/IMG8.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -178,7 +178,7 @@
 
                 <div class="postBox extraHeight">
                     <div class="imgbx">
-                        <img src="IMG9.jpg" class="cover">
+                        <img src="./images/IMG9.jpg" class="cover">
                     </div>
                     <div class="textBx">
                         <h3>Mobile: Redmi Note 9 Pro Max with 64MP camera</h3>
@@ -250,57 +250,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><span>&#710;</span></button>
 
-
-
-    <script>
-        const menuToggle = document.querySelector('.menuToggle');
-        const navigation = document.querySelector('.navigation');
-        menuToggle.onclick = function() {
-            menuToggle.classList.toggle('active');
-            navigation.classList.toggle('active');
-        }
-
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        })
-
-        function toggleMenu() {
-            menuToggle.classList.remove('active');
-            navigation.classList.remove('active');
-
-        }
-        var mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction()
-        };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                mybutton.style.display = "block";
-
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-        
-       
-        
-    </script>
-         <script>
-        var loader = document.getElementById("preloader");
-        window.addEventListener("load", function() {
-            loader.style.display = "none";
-        })
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
