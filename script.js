@@ -35,6 +35,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+//Preloading gif till page loads
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function () {
     loader.style.display = "none";
