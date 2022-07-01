@@ -473,6 +473,7 @@ span {
   text-align: center;
   position: relative;
   top: -30px;
+  padding: 10px 59px;
 }
 #close_pop {
   text-align: right;
@@ -490,7 +491,7 @@ span {
   width: 40px;
   height: 40px;
   position: relative;
-  top: -30px;
+  top: -43px;
   /* text-align: center; */
   /* margin: 0 auto; */
   left: 50%;
@@ -573,5 +574,19 @@ span {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 634px) {
+  #popup {
+    font-size: 15px;
+    width: 350px;
+    height: 120px;
+  }
+  .popup_content {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    padding: 10px 30px;
   }
 }
