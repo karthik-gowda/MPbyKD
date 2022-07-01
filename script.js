@@ -24,7 +24,7 @@ window.onscroll = function () {
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     mybutton.style.display = "block";
-    $("#popup").css("background", "#afafaf");
+    $("#popup").css("background", "#f8f8f8");
   } else {
     mybutton.style.display = "none";
     $("#popup").css("background", "white");
