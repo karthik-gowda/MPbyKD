@@ -467,6 +467,7 @@ span {
   cursor: pointer;
   border-radius: 3px;
   transition: 0.5s linear;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
 }
 .popup_content {
   text-align: center;
